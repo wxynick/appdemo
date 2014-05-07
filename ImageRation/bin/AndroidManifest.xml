@@ -32,6 +32,8 @@
             android:name=".ui.NodeManagerMenuActivity"
             android:uiOptions="splitActionBarWhenNarrow" />
         <activity android:name=".ui.LayoutMenu" />
+        <activity android:name=".ui.ListViewDemoActivity" />
+        
     </application>
 
     <uses-permission android:name="android.permission.INTERNET" />

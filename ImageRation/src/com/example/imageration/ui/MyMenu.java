@@ -46,10 +46,11 @@ public class MyMenu extends Activity {
 			}
 		});
 		Button b2 = (Button) findViewById(R.id.channel);
+		b2.setText("ListViewDemo");
 		b2.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View v) {
-				startActivity(new Intent(MyMenu.this, CalculatorActivity.class));
+				startActivity(new Intent(MyMenu.this, ListViewDemoActivity.class));
 			}
 		});
 		Button b3 = (Button) findViewById(R.id.ly);
