@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/calc"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="计算器" />
+
+    <Button
+        android:id="@+id/channel"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="动态频道定制" />
+
+    <Button
+        android:id="@+id/ly"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="常用布局学习" />
+
+    <Button
+        android:id="@+id/eg2"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ActionBar" />
+     <Button
+        android:id="@+id/nm"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="节点集群" />
+
+</LinearLayout>

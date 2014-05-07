@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/lly"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="线性布局（LinearLayout）" />
+
+    <Button
+        android:id="@+id/rly"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="相对布局（RelativeLayout）" />
+
+    <Button
+        android:id="@+id/tly"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="表格布局（TableLayout）" />
+
+    <Button
+        android:id="@+id/fly"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="帧布局（FrameLayout）" />
+     <Button
+        android:id="@+id/aly"
+        style="@style/btn"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="绝对布局（AbsoluteLayout）" />
+
+</LinearLayout>

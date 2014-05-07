@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ImageRation</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- menu item name -->
+    <string name="project">Project</string>
+    <string name="save">Save</string>
+    <string name="edit">Edit</string>
+    <string name="file">File</string>
+    <string name="run">Run</string>
+    <string name="source">Source</string>
+    <string name="navigate">Navigate</string>
+    <string name="search">Search</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    
+    <!--nodes menu item name -->
+    <string name="nlist">查看节点</string>
+    <string name="config">配置信息</string>
+    <string name="alarm">告警信息</string>
+    <string name="setting">设置</string>
+
+</resources>

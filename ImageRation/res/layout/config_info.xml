@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/table1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:collapseColumns="2"
+        android:padding="3dip"
+        android:shrinkColumns="1"
+        android:stretchColumns="0" >
+        <TableRow>
+            <TextView android:text="节点名称" />
+
+            <TextView android:id="@+id/nodeId"/>"
+
+        </TableRow>
+
+        <TableRow>
+            <TextView android:text="集群名称" />
+
+            <TextView android:id="@+id/groupName" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
